@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool | Weather</title>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="box">
+        <div id="input-box">
+          <img src="icons/search.png" alt="" />
+          <input
+            type="text"
+            id="input"
+            spellcheck="false"
+            placeholder="Location"
+            autocomplete="off"/>
+        </div>
+        <button onclick="temp()">Search</button>
+      </div>
+      <div id="errorMsg"></div>
+      <div class="para">RECENT LOCATION</div>
+      <div class="box2">
+       <div class="datas">
+           <div>
+            <p id="location"><span id="city"></span><span id="country"></span></p>
+
+           </div>
+           <div class="data">
+            <img src="icons/00.png" alt="" id="img">
+            <div id="temp-Box"><span id="temp" onclick="changeUnit()">00</span><span id="cel">&#8451</span></div>
+           </div>
+           <div class="data2">
+                <div id="feel"><span>realFeel  </span><span id="feel-temp">00&#8451</span></div> 
+           </div>
+       </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
