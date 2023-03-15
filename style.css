@@ -74,6 +74,7 @@ h3 {
   min-height: 9.2em;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  text-shadow: 1px 1px 1px rgb(251, 251, 249);
 }
 #img {
   width: 50px;
